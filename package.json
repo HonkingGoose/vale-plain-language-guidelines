@@ -1,0 +1,18 @@
+{
+  "name": "vale-plain-language-guidelines",
+  "version": "0.0.0",
+  "description": "Vale code for the Plain Language guidelines.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HonkingGoose/vale-plain-language-guidelines.git"
+  },
+  "author": "HonkingGoose",
+  "bugs": {
+    "url": "https://github.com/HonkingGoose/vale-plain-language-guidelines/issues"
+  },
+  "homepage": "https://github.com/HonkingGoose/vale-plain-language-guidelines#readme"
+}
