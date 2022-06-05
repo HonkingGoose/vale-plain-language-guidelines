@@ -1,6 +1,6 @@
 # Vale-code for the lists on https://www.plainlanguage.gov/guidelines/concise/
 
-link: 'https://www.plainlanguage.gov/guidelines/concise/'
+link: "https://www.plainlanguage.gov/guidelines/concise/"
 extends: substitution
 message: Consider using '%s' instead of '%s'
 level: suggestion

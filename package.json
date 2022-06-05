@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/HonkingGoose/vale-plain-language-guidelines/issues"
   },
-  "homepage": "https://github.com/HonkingGoose/vale-plain-language-guidelines#readme"
+  "homepage": "https://github.com/HonkingGoose/vale-plain-language-guidelines#readme",
+  "devDependencies": {
+    "prettier": "2.6.2"
+  }
 }
