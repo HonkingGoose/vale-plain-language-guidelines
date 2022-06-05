@@ -1,4 +1,4 @@
-# vale-plain-language-guidelines
+# Vale Plain Language guidelines
 
 Vale linter code for the Plain Language guidelines.
 
