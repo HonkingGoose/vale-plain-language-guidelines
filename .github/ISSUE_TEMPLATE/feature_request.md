@@ -4,7 +4,6 @@ about: Suggest an idea for this project
 title: ''
 labels: priority-5-triage, status:requirements, type:feature
 assignees: ''
-
 ---
 
 **Is your feature request related to a problem? Please describe.**
