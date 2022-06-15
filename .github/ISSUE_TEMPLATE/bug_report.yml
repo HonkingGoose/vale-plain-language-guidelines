@@ -1,0 +1,38 @@
+name: Bug report
+description: You've found a bug with the Vale Plain Language guidelines.
+labels: ['type:bug', 'status:requirements', 'priority-5-triage']
+body:
+  - type: input
+    id: plain-language-version
+    attributes:
+      label: Which version of the Vale Plain Language guidelines are you running?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: regression-error
+    attributes:
+      label: Was this something which used to work for you, and then stopped?
+      options:
+        - 'It used to work, and then stopped'
+        - 'I never saw this working'
+    validations:
+      required: true
+
+  - type: textarea
+    id: describe-bug
+    attributes:
+      label: Describe the bug
+    validations:
+      required: true
+
+  - type: dropdown
+    id: minimal-reproduction-repository
+    attributes:
+      label: Have you created a minimal reproduction repository?
+      options:
+        - 'I have linked to a minimal reproduction repository in the bug description'
+        - 'No reproduction, but I have linked to a public repo where it occurs'
+        - 'No reproduction repository'
+    validations:
+      required: true
