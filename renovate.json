@@ -1,4 +1,22 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>renovatebot/.github"]
+  "extends": ["config:base", "helpers:pinGitHubActionDigests"],
+  "prCreation": "not-pending",
+  "internalChecksFilter": "strict",
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  },
+  "packageRules": [
+    {
+      "description": "Wait 3 days before creating a npm update PR",
+      "matchDatasources": ["npm"],
+      "stabilityDays": 3
+    },
+    {
+      "description": "Automerge Prettier updates",
+      "matchDepTypes": ["devDependencies"],
+      "matchPackagePatterns": ["prettier"],
+      "automerge": true
+    }
+  ]
 }
