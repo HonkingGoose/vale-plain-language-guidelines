@@ -4,8 +4,8 @@
   "description": "Vale code for the Plain Language guidelines.",
   "private": true,
   "scripts": {
-    "prettier": "prettier --check \"**/*.{ts,js,mjs,json,md,yml}\"",
-    "prettier-fix": "prettier --write \"**/*.{ts,js,mjs,json,md,yml}\"",
+    "prettier": "prettier --cache --check \"**/*.{ts,js,mjs,json,md,yml}\"",
+    "prettier-fix": "prettier --write --cache \"**/*.{ts,js,mjs,json,md,yml}\"",
     "prepare": "husky install"
   },
   "repository": {
