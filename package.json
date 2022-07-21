@@ -12,6 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/HonkingGoose/vale-plain-language-guidelines.git"
   },
+  "license": "AGPL-3.0-only",
   "author": "HonkingGoose",
   "bugs": {
     "url": "https://github.com/HonkingGoose/vale-plain-language-guidelines/issues"
