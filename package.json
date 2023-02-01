@@ -23,6 +23,6 @@
     "conventional-changelog-conventionalcommits": "5.0.0",
     "husky": "8.0.3",
     "prettier": "2.8.3",
-    "semantic-release": "20.0.3"
+    "semantic-release": "20.0.4"
   }
 }
