@@ -1,3 +1,5 @@
+I archived this repository, because I don't want to work on this project anymore.
+
 # Vale Plain Language guidelines
 
 Vale linter code for the Plain Language guidelines.
